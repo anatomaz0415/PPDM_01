@@ -1,0 +1,57 @@
+  /*"splash": {
+      "image": "./assets/unnamed.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b7bca"
+      
+    },
+
+
+import React from 'react';
+import { View, Text, ImageBackground, StyleSheet, ScrollView} from 'react-native';
+
+export default function App() {
+  return (
+    <ImageBackground 
+      source={require('./assets/splash-icon.png')} 
+      //se for um link utiliza uri={{'htps://link.com}}
+      style={styles.fundo}
+    >
+      <View style={styles.caixaCentral}>
+        <Text style={styles.titulo}>SISTEMA SENAI</Text>
+        <Text style={styles.subtitulo}>Referência: R1 - Fundamentos</Text>
+        <Text style={styles.texto}>Esse é um teste para aula</Text>
+      </View>
+    </ImageBackground>
+
+  );
+}
+
+const styles = StyleSheet.create({
+  fundo: {
+    flex: 1, // Ocupa a tela toda
+     justifyContent: 'center',
+    alignItems: 'center',
+  },
+  caixaCentral: {
+    backgroundColor: 'rgba(67, 161, 193, 0.8)', // Branco transparente
+    padding: 20,
+    borderRadius: 15,
+    textAlign: 'center'
+  },
+  titulo: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: '#ff0000',
+  },
+  subtitulo: {
+    fontSize: 16,
+    marginTop: 10,
+  },
+  texto:{
+    fontSize: 14,
+    marginTop: 10,
+    fontWeight: 'bold'
+  },
+
+  
+});*/
