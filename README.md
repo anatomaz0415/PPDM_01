@@ -1,2 +1,2 @@
-# PPDM_01
+# PPDM_02
 Unidade curricular de Programação Para Dispositivos Móveis (React) - turma I2HS
